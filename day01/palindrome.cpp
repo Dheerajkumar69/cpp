@@ -1,3 +1,4 @@
+// check if string is a palindrome or not without using any libraries.
 #include <iostream>
 
 // Function to calculate the length of a string

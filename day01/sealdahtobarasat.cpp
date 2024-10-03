@@ -1,3 +1,5 @@
+// write a program to check if madhyamgram is between sealdah and barasat ,or not.
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

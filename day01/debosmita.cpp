@@ -1,3 +1,4 @@
+// write a program to search Debosmita is in the class or not.
 #include <iostream>
 #include <vector>
 #include <algorithm>
