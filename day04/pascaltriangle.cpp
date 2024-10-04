@@ -1,3 +1,4 @@
+// write a program in c++ to implement a reverse pascal triangle.
 #include <iostream>
 #include <vector>
 #include <iomanip>

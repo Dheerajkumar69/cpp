@@ -1,3 +1,4 @@
+// write a program in c to count the vowels in the string.
 #include <iostream>
 #include <cctype>  // For tolower() function
 using namespace std;

@@ -1,3 +1,4 @@
+// write a program in c++ to collecct and show the details of all the employees.
 #include <iostream>
 #include <vector>
 using namespace std;

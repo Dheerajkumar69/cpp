@@ -1,3 +1,4 @@
+// write a program in c++ to calculate the prize of the item and display the total
 #include <iostream>
 using namespace std;
 

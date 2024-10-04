@@ -1,3 +1,4 @@
+// write a program in c++  to calculate the average of students using friend function.
 #include <iostream>
 #include <string>
 #include <vector>

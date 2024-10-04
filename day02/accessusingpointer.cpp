@@ -1,3 +1,4 @@
+// write a program in c++ to access an element using pointer.
 #include <iostream>
 using namespace std;
 

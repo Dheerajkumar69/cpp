@@ -1,3 +1,4 @@
+// write a program in c++ to concat and copy string.
 #include <iostream>
 using namespace std;
 

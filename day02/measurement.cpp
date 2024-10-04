@@ -1,3 +1,4 @@
+// write a progam in c++ t0 mesure the distance in feet and inches.
 #include <iostream>
 
 class Distance {

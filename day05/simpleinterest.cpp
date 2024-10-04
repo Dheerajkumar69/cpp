@@ -1,3 +1,4 @@
+// write a program in c++  to calculate the simple interest withe the default of 15 percent.
 #include <iostream>
 #include <iomanip>
 
