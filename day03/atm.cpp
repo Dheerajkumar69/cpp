@@ -1,10 +1,47 @@
 // write a program in c++ to implement a atm interface .
+
 #include <iostream>
 #include <string>
 #include <limits>
 
 class ATM {
-    // ... [ATM class remains the same as before] ...
+private:
+    double balance;
+    int pin;
+
+public:
+    ATM() : balance(0), pin(1234) {}
+
+    bool verifyPin(int enteredPin) {
+        return enteredPin == pin;
+    }
+
+    void withdraw(double amount) {
+        if (amount > balance) {
+            std::cout << "Insufficient balance.\n";
+        } else {
+            balance -= amount;
+            std::cout << "Withdrawal successful. Remaining balance: " << balance << "\n";
+        }
+    }
+
+    void deposit(double amount) {
+        balance += amount;
+        std::cout << "Deposit successful. New balance: " << balance << "\n";
+    }
+
+    void transfer(double amount) {
+        if (amount > balance) {
+            std::cout << "Insufficient balance.\n";
+        } else {
+            balance -= amount;
+            std::cout << "Transfer successful. Remaining balance: " << balance << "\n";
+        }
+    }
+
+    void showBalance() {
+        std::cout << "Your current balance is: " << balance << "\n";
+    }
 };
 
 void clearInputBuffer() {

@@ -1,5 +1,5 @@
 // write a program to implement Bubble Sort and if the array is sorted no need to sort.   
-    #include <stdio.h>
+#include <stdio.h>
 #include <stdbool.h>
 
 void bubbleSort(int arr[], int n) {
